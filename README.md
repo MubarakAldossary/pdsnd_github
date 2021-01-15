@@ -39,4 +39,4 @@ earliest, most recent, most common year of birth (only available for NYC and Chi
 -baikeshare.py
 
 ### Credits
-credits to udacity.
+Udacity
