@@ -18,12 +18,12 @@ def get_filters():
     print('Hello There! Let us explore some US bikeshare data,sounds good?')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city = input("\n Which city would you like to filter by? New York City, Chicago or Washington?\n")
+        city = input("\n Which beautiful city would you like to filter by? New York City, Chicago or Washington?\n")
         city = city.lower()
         if city in ['new york city','chicago','washington']:
-            break 
+            break
         else:
-            print("I apologize, there is no such city. Please try again!")
+            print("I am sorry, there is no such city. Please try again!")
 
     # TO DO: get user input for month (all, january, february, ... , june)
 
@@ -33,7 +33,7 @@ def get_filters():
         if month in ['january','february','march','april','june','all']:
             break
         else:
-            print("I apologize, there is no such month. Please try again!")
+            print("I am sorry, there is no such month. Please try again!")
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
@@ -42,7 +42,7 @@ def get_filters():
         if day in ['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all']:
             break
         else:
-            print("I apologize, there is no such day. Please try again!")
+            print("I am sorry, there is no such day. Please try again!")
 
 
 
@@ -179,7 +179,7 @@ def user_stats(df):
 
         print("\nThis took %s seconds." % (time.time() - start_time))
         print('-'*40)
-        
+
     x = 1
     while True:
         raw = input('\n Would you like to view 5 rows of individual trip date? Enter yes or no.\n')
