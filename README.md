@@ -12,25 +12,32 @@ This project is a __Python__ script that analyze the data related to bikeshare s
 - New York City
 
 It takes the user input and computes a variety of descriptive statistics to interactively provide these information:
-- 1) Popular times of travel (i.e., occurs most often in the start time)
+- Popular times of travel (i.e., occurs most often in the start time)
 
-        most common month
-        most common day of week
-        most common hour of day
-- 2) Popular stations and trip
+    1)most common month
 
-        most common start station
-        most common end station
-        most common trip from start to end (i.e., most frequent combination of start station and end station)
-- 3) Trip duration
+    2)most common day of week
 
-        total travel time
-        average travel time
-- 4) User info
+    3)most common hour of day
+- Popular stations and trip
 
-        counts of each user type
-        counts of each gender (only available for NYC and Chicago)
-        earliest, most recent, most common year of birth (only available for NYC and Chicago).
+    1)most common start station
+
+    2)most common end station
+
+    3)most common trip from start to end (i.e., most frequent combination of start station and end station)
+- Trip duration
+
+    1)total travel time
+
+    2)average travel time
+- User info
+
+    1)counts of each user type
+
+    2)counts of each gender (only available for NYC and Chicago)
+
+    3)earliest, most recent, most common year of birth (only available for NYC and Chicago)
 ### Software
 - Python 3
 ### Files used
